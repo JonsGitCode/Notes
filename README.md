@@ -8,3 +8,6 @@ Selenium "webdriver.Firefox()" as instructed in Automate the Boring Stuff lesson
  - solution: user webdriver.Firefox(executable_path=r'/Users/jshapiro100/Downloads/geckodriver') to launch a Firefox browser
  - problem: still unable to set browser = webdriver.Firefox(executable_path=r'/Users/[username]/Downloads/geckodriver')
  - solution: use: (webdriver.Firefox(executable_path=r'/Users/[username]/Downloads/geckodriver').get('https://automatetheboringstuff.com')) to open the browser to a URL instead.
+
+ - alternative: https://www.selenium.dev/documentation/en/webdriver/driver_requirements/#adding-executables-to-your-path
+ - alternative: homebrew installer
